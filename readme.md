@@ -17,18 +17,9 @@ Our implementation of EWC follows the original paper by [Kirkpatrick et al. (201
 To use this repository, clone it and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/EWC-PyTorch.git
-cd EWC-PyTorch
+git clone https://github.com/Shantnu-singh/EWC-Implementation-in-PyTorch
 pip install -r requirements.txt
 ```
-
-## Usage
-Run the main training script with:
-```bash
-python train.py --taskA <dataset_A> --taskB <dataset_B>
-```
-
-
 
 ## Results
 Results with EWC demonstrate that the model retains performance on Task A while successfully learning Task B. The trade-off between stability and plasticity is controlled by the `lambda` parameter.
